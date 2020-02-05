@@ -1,5 +1,5 @@
 
-function GetNameAndMark() {
+function ValidatMark () {
     
     //input
     var name=prompt ('enter your name');
@@ -7,7 +7,7 @@ function GetNameAndMark() {
     
      //Validation
     while (mark>100 || mark < 0) {
-        var mark=prompt('enter your mark'); 
+         mark=prompt('Please Enter The Mark Between ( 0 - 100)'); 
     }
     // if (mark >=50 ){Document.write 'welcom to class 201'} else
     var fun =confirm ('code is fun ');
@@ -53,6 +53,6 @@ function GetNameAndMark() {
       
 }
 
-var greeting =  GetNameAndMark();
+var greeting =  ValidatMark ();
 
 document.write ( ' <h3>' +greeting + ' </ h3>' )
