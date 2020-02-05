@@ -6,7 +6,7 @@ function ValidatMark () {
     var mark=prompt('enter your mark');
     
      //Validation
-    while (mark>100 || mark < 0) {
+    while (mark>100 || mark < 0 || mark == '') {
          mark=prompt('Please Enter The Mark Between ( 0 - 100)'); 
     }
     // if (mark >=50 ){Document.write 'welcom to class 201'} else
