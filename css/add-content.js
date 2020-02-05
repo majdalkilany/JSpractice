@@ -4,6 +4,7 @@ function ValidatMark () {
     //input
     var name=prompt ('enter your name');
     var mark=prompt('enter your mark');
+    var age=prompt('enter your Age');
     
      //Validation
     while (mark>100 || mark < 0 || mark == '') {
